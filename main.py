@@ -7,6 +7,3 @@ with open('data.json') as f:
       
 app = Flask(__name__)
 
-@app.route('/api', methods=['GET'])
-def api():
-    return jsonify(data)
